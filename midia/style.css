@@ -6,6 +6,7 @@
     --cor2:#005BAB;
     --cor3:#004785;
     --cor4:#002545;
+    --corfraca:#6887a3;
 
     --font-padrao:'Oswald', sans-serif;
 
@@ -16,7 +17,86 @@
     padding: 0px;
 }
 
-header h1{
+body{
+    background-color: var(--cor0);
+}
+header{
+    
+    background-image: linear-gradient(to bottom, var(--corfraca), #0775C9);
+}
+
+header h1,p{
     color: var(--cor4);
     font-family: var(--font-padrao);
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+header h1{
+    padding-top: 60px;
+    font-size: 3em;
+}
+header p{
+    padding-bottom: 60px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 20px 0px;
+    transition-duration: 2s;
+    border-radius: 20px;
+}
+main img:hover{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+}
+
+footer{
+    background-color: var(--cor2);
+    margin: auto;
+    font-size: 0.7em;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+footer a{
+    
+    text-decoration: none;
+    transition-duration: 1.5s;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+iframe{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+main p{
+    color: #003869;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+main .aviso{
+    background-color: #002545;
+    width: 350px;
+    padding: 5px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    color: var(--corfraca);
+    transition-duration: 1s;
+}
+main .aviso:hover{
+    font-size: 2em;
+    width: 500px;
 }
