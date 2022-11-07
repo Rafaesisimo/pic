@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --cor0:#0070D1;
+    --cor1:#0067C4;
+    --cor2:#005BAB;
+    --cor3:#004785;
+    --cor4:#002545;
+
+    --font-padrao:'Oswald', sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1{
+    color: var(--cor4);
+    font-family: var(--font-padrao);
+}
