@@ -100,3 +100,22 @@ main .aviso:hover{
     font-size: 2em;
     width: 500px;
 }
+
+nav a {
+    padding: 5px 25px;
+    text-decoration: none;
+    color: var(--cor4);
+    font-family: var(--font-padrao);
+    border-radius: 12px;
+    transition-duration: 0.5s;
+    text-align: center;
+    margin: auto;
+}
+nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    border-radius: 20px;
+}
+nav {
+    margin-left: 30px;
+}
